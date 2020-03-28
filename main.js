@@ -51,11 +51,11 @@ const updateUI = (data) => {
 }
 
 const updateWorld = (data) => {  
-    tcasesC.innerText = data[0].cases;
-    ncasesC.innerText = data[0].new_cases;
-    deathC.innerText = data[0].deaths;
-    curedC.innerText = data[0].total_recovered;
-    acasesC.innerText = data[0].active_cases;   
+    tcasesC.innerText = data[2].cases;
+    ncasesC.innerText = data[2].new_cases;
+    deathC.innerText = data[2].deaths;
+    curedC.innerText = data[2].total_recovered;
+    acasesC.innerText = data[2].active_cases;   
     
     tcasesI.innerText = data[1].cases;
     ncasesI.innerText = data[1].new_cases;
@@ -63,11 +63,11 @@ const updateWorld = (data) => {
     curedI.innerText = data[1].total_recovered;
     acasesI.innerText = data[1].active_cases;  
 
-    tcasesU.innerText = data[2].cases;
-    ncasesU.innerText = data[2].new_cases;
-    deathU.innerText = data[2].deaths;
-    curedU.innerText = data[2].total_recovered;
-    acasesU.innerText = data[2].active_cases;  
+    tcasesU.innerText = data[0].cases;
+    ncasesU.innerText = data[0].new_cases;
+    deathU.innerText = data[0].deaths;
+    curedU.innerText = data[0].total_recovered;
+    acasesU.innerText = data[0].active_cases;  
 
     tcasesS.innerText = data[3].cases;
     ncasesS.innerText = data[3].new_cases;
