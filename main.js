@@ -51,11 +51,11 @@ const updateUI = (data) => {
 }
 
 const updateWorld = (data) => {  
-    tcasesC.innerText = data[2].cases;
-    ncasesC.innerText = data[2].new_cases;
-    deathC.innerText = data[2].deaths;
-    curedC.innerText = data[2].total_recovered;
-    acasesC.innerText = data[2].active_cases;   
+    tcasesC.innerText = data[200].cases;
+    ncasesC.innerText = data[200].new_cases;
+    deathC.innerText = data[200].deaths;
+    curedC.innerText = data[200].total_recovered;
+    acasesC.innerText = data[200].active_cases;   
     
     tcasesI.innerText = data[1].cases;
     ncasesI.innerText = data[1].new_cases;
