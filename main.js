@@ -69,17 +69,17 @@ const updateWorld = (data) => {
     curedU.innerText = data[0].total_recovered;
     acasesU.innerText = data[0].active_cases;  
 
-    tcasesS.innerText = data[3].cases;
-    ncasesS.innerText = data[3].new_cases;
-    deathS.innerText = data[3].deaths;
-    curedS.innerText = data[3].total_recovered;
-    acasesS.innerText = data[3].active_cases;  
+    tcasesS.innerText = data[2].cases;
+    ncasesS.innerText = data[2].new_cases;
+    deathS.innerText = data[2].deaths;
+    curedS.innerText = data[2].total_recovered;
+    acasesS.innerText = data[2].active_cases;  
 
-    tcasesG.innerText = data[4].cases;
-    ncasesG.innerText = data[4].new_cases;
-    deathG.innerText = data[4].deaths;
-    curedG.innerText = data[4].total_recovered;
-    acasesG.innerText = data[4].active_cases;  
+    tcasesG.innerText = data[3].cases;
+    ncasesG.innerText = data[3].new_cases;
+    deathG.innerText = data[3].deaths;
+    curedG.innerText = data[3].total_recovered;
+    acasesG.innerText = data[3].active_cases;  
 
 
 }
