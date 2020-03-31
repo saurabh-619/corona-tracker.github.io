@@ -99,7 +99,7 @@ const getIndiaData = async () => {
 }  
 
     getIndiaData().then((data) =>{
-        // console.log(data);
+        console.log(data);
         updateUI(data);
     } 
 ); 
