@@ -49,7 +49,7 @@ const updateUI = (data) => {
     cured.innerText = data.cases.recovered.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     acases.innerText = data.cases.active.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
-
+ 
 const updateWorld = (data) => {
     tcasesC.innerText = data[0].cases.total.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     ncasesC.innerText = data[0].cases.new.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -80,7 +80,6 @@ const updateWorld = (data) => {
     deathG.innerText = data[4].deaths.total.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     curedG.innerText = data[4].cases.recovered.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     acasesG.innerText = data[4].cases.active.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-
 
 }
 
@@ -119,6 +118,3 @@ getCountryData().then((data) => {
     console.log(data);
     updateWorld(data);
 });
-
-
-
