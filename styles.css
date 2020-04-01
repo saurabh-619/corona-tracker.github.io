@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 
-body {   
+body {
     font-family: sans-serif;
     overflow-x: hidden !important;
 }
+
+html {
+    overflow-x: hidden !important;
+}
+
 
 #india {      
     height: 90vh;    
@@ -139,4 +144,23 @@ body {
         font-size: 1.3rem;
         color: #888;
     }
+}
+
+@media screen and (max-width:375px) {
+
+    #india {
+        position: relative;
+        top: 4rem;
+    }
+
+    #world {
+        position: relative;
+        top: 7rem;
+    }
+
+    footer {
+        position: relative;
+        top: 7rem;
+    }
+
 }
